@@ -11,6 +11,8 @@ Poderá customizar o jogo como desejar, através dos parâmetros.
 
 ![Exemplo de Labirinto](images/labirintomedio.png)
 
+O Labirinto é chegado aleatoriamente, baseado nos parâmetros especificados. Cada labirinto é único.
+
 Utilize as setas para jogar.
 
 **Jogue Agora!**
