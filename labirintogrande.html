@@ -1,0 +1,25 @@
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<style>
+:focus { outline:none; }
+</style>
+<script src="biblio.js"></script>
+<script src="listadupla.js"></script>
+<script src="labirinto.js"></script>
+</head>
+<body>
+<div id="meulabi" style="position:relative"></div>
+<br>
+<audio id="beep" src="audio/beep-10.mp3" preload ></audio>
+<audio id="passos" src="audio/footsteps-4.mp3" preload ></audio>
+<audio id="explosion" src="audio/explosion-04.mp3" preload ></audio>
+<audio id="clonk" src="audio/mechanical-clonk-1.mp3" preload ></audio>
+<audio id="chime" src="audio/magic-chime-01.mp3" preload ></audio>
+<script>
+var meulabi = new Labirinto("meulabi",100,41);
+meulabi.geraLabirinto();
+meulabi.geraHTML();
+</script>
+</body>
+</html>
